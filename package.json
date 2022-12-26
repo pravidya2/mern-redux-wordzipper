@@ -1,0 +1,18 @@
+{
+  "name": "mern-redux-wordzipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev:start": "node backend/server.js",
+    "start": "node backend/server.js",
+    "dev": "nodemon --watch backend --exec npm run dev:start"
+  },
+  "author": "Prabakar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
